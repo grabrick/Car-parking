@@ -1,6 +1,11 @@
-const navMenu = document.getElementById('nav-menu'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close')
+const navMenu = document.getElementById('nav-menu');
+const navToggle = document.getElementById('nav-toggle');
+const navClose = document.getElementById('nav-close');
+
+/*  */
+const LinkFeatured = document.querySelector('.featured__item');
+const ActiveFeatured = document.querySelectorAll('.active-featured')
+
 /*=============== SHOW MENU ===============*/
 
 if(navToggle) {
@@ -69,13 +74,14 @@ let mixerFeatured = mixitup('.featured__content', {
 
 /* Link active featured  не работает*/ 
 
-const linkFeatured = document.querySelectorAll('.featured__item')
+function activeFeatured() {
+  LinkFeatured.forEach(LinkFeatured.classList.remove('.active-featured'));
+  this.classList.add('active-featured')
+}
+LinkFeatured.addEventListener('click', () => {
 
-// function activeFeatured() {
-//   linkFeatured.forEach(l=> l.classList.remove('.active-featured'));
-//   this.classList.add('active-featured')
-// }
-// linkFeatured.forEach(l=> l.addEventListener('click', activeFeatured))
+})
+
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
