@@ -1,0 +1,33 @@
+.shape {
+    background-color: hsla(219, 33%, 32%, .5);
+    filter: blur(112px);
+    border-radius: 50%;
+  }
+  
+  .shape__big {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .shape__small {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .shape__smaller {
+    width: 180px;
+    height: 180px;
+    filter: blur(64px);
+  }
+
+  @media screen and (min-width: 1040px) {
+    .shape__big {
+      width: 500px;
+      height: 500px;
+    }
+  
+    .shape__small {
+      width: 400px;
+      height: 400px;
+    }
+  }

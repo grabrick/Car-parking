@@ -1,0 +1,25 @@
+.offer__data,
+.offer__img {
+  position: relative;
+}
+
+.offer__data {
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .offer__data {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .offer__data,
+  .offer__title {
+    text-align: initial;
+  }
+
+  .offer__data {
+    margin-bottom: 0;
+  }
+}

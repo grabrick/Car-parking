@@ -1,0 +1,15 @@
+.logos__img {
+    width: 40px;
+    opacity: .4;
+    transition: .3s;
+  }
+
+  .logos__img:hover {
+    opacity: 1;
+  }
+
+  @media screen and (min-width: 1040px) {
+    .logos__img {
+      width: 50px;
+    }
+  }

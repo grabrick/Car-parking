@@ -1,0 +1,23 @@
+.features__map {
+    max-width: initial;
+    width: 450px;
+    position: absolute;
+    top: 8rem;
+    left: -3rem;
+    margin: auto;
+    transform: rotate(-22deg);
+  }
+
+@media screen and (min-width: 576px) {
+  .features__map {
+    left: 0;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .features__map {
+    width: 650px;
+    /* top: 11rem; */
+  }
+}

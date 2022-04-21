@@ -1,0 +1,12 @@
+.home__elec {
+  font-size: var(--small-font-size);
+  font-weight: 400;
+  color: var(--text-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+}
+
+.home__elec i {
+  color: var(--first-color);
+}

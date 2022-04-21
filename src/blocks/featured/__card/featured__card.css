@@ -1,0 +1,16 @@
+.featured__card {
+    position: relative;
+    background-color: var(--container-color);
+    padding: 2rem 1.5rem 1.5rem;
+    border-radius: 1rem;
+  }
+
+  .featured__card .shape__smaller {
+    position: absolute;
+    inset: 0;
+    margin: auto; 
+  }
+
+  .featured__card:hover .featured__img {
+    transform: translateX(-.25rem);
+  }

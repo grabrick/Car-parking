@@ -1,0 +1,18 @@
+.featured__content {
+    grid-template-columns: 228px;
+    row-gap: 2.5rem;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 576px) {
+    .featured__content {
+      grid-template-columns: repeat(2, 228px);
+    }
+  }
+
+  @media screen and (min-width: 1040px) {
+    .featured__content {
+      grid-template-columns: repeat(3, 248px);
+      gap: 4rem;
+    }
+  }

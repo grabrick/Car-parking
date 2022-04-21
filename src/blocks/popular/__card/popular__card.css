@@ -1,0 +1,27 @@
+.popular__card {
+  position: relative;
+  width: 238px;
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 3.5rem;
+  overflow: hidden;
+}
+
+.popular__card .shape__smaller {
+  position: absolute;
+  top: -2.5rem;
+  left: -2.5rem;
+}
+
+.popular__card:hover .popular__img {
+  transform: translateY(-.25rem);
+}
+
+@media screen and (min-width: 1040px) {
+  .popular__card {
+    width: 258px;
+    border-radius: 1.25rem;
+    margin-bottom: 5rem;
+  }
+}

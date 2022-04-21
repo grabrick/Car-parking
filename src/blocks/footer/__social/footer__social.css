@@ -1,0 +1,4 @@
+.footer__social {
+    display: flex;
+    column-gap: 1.5rem;
+  }

@@ -1,0 +1,19 @@
+.home__car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  @media screen and (max-width: 320px) {
+    .home__car {
+      column-gap: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 1040px) {
+    .home__car {
+      column-gap: 7rem;
+    }
+  }

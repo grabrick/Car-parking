@@ -1,0 +1,29 @@
+.footer__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  color: var(--title-color);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1.25rem;
+  transition: .3s;
+}
+
+.footer__logo i{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.footer__logo:hover {
+  color: var(--first-color);
+}
+
+@media screen and (min-width: 1040px) {
+  .footer__logo {
+    column-gap: .5rem;
+  }
+
+  .footer__logo i {
+    font-size: 2rem;
+  }
+}

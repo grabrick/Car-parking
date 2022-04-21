@@ -1,0 +1,10 @@
+.about__card-discription {
+    font-size: var(--smaller-font-size);
+  }
+
+  @media screen and (min-width: 1040px) {
+    .about__discription {
+      padding-right: 4rem;
+      margin-bottom: 3rem;
+    }
+  }

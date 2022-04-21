@@ -1,0 +1,26 @@
+.offer__container {
+    grid-template-rows: max-content 224px;
+}
+
+@media screen and (max-width: 320px) {
+  .offer__container {
+    grid-template-rows: max-content 180px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .offer__container {
+    grid-template-rows: initial;
+    grid-template-columns: .5fr;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .offer__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+    align-items: center;
+    padding-top: 2rem;
+  }
+}

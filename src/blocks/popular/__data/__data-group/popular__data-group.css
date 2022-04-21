@@ -1,0 +1,7 @@
+.popular__data-group {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    font-size: var(--smaller-font-size);
+    color: var(--white-color);
+  }

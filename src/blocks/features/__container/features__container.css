@@ -1,0 +1,11 @@
+.features__container {
+    padding-top: 2rem;
+    grid-template-columns: 285px;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 1040px) {
+    .features__container {
+      padding: 2rem 0 3rem;
+    }
+  }

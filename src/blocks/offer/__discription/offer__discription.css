@@ -1,0 +1,9 @@
+.offer__discription {
+    margin-bottom: 3rem;
+  }
+
+  @media screen and (min-width: 1040px) {
+    .offer__discription {
+      padding-right: 6rem;
+    }
+  }

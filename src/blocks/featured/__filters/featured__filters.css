@@ -1,0 +1,14 @@
+.featured__filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-bottom: 3.5rem; 
+  }
+
+  @media screen and (min-width: 1040px) {
+    .featured__filters {
+      column-gap: 2rem;
+      margin-bottom: 4.5rem;
+    }
+  }

@@ -1,0 +1,27 @@
+.offer__img {
+    position: absolute;
+    max-width: initial;
+    width: 400px;
+    bottom: 2rem;
+    right: -5.5rem;
+}
+
+@media screen and (max-width: 320px) {
+  .offer__img {
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .offer__img {
+    position: relative;
+    bottom: initial;
+    right: initial;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .offer__img {
+    width: 450px;
+  }
+}

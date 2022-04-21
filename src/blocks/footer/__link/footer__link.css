@@ -1,0 +1,22 @@
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  row-gap: .5rem;
+}
+
+.footer__link,
+.footer__social-link {
+  color: var(--text-color);
+  transition: .3s;
+}
+
+.footer__link:hover,
+.footer__social-link:hover {
+  color: var(--title-color);
+}
+
+@media screen and (min-width: 1040px) {
+  .footer__link {
+    row-gap: .75rem;
+  }
+}

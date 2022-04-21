@@ -1,0 +1,19 @@
+.home {
+    position: relative;
+    overflow: hidden;
+}
+
+.home .shape__big,
+.home .shape__small {
+  position: absolute;
+}
+
+.home .shape__big {
+  left: -9rem;
+  top: -4rem;
+}
+
+.home .shape__small {
+  right: -10rem;
+  bottom: 3rem;
+}

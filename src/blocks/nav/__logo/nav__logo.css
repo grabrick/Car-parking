@@ -1,0 +1,20 @@
+.nav__logo {
+  align-items: center;
+  column-gap: .25rem;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+
+.nav__logo i{
+  font-size: 1.25rem;
+}
+
+.nav__logo,
+.nav__toggle {
+  color: var(--text-color);
+  display: inline-flex;
+}
+
+.nav__logo:hover {
+  color: var(--first-color);
+}

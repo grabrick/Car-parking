@@ -1,0 +1,9 @@
+.features__img {
+  width: 150px;
+}
+
+@media screen and (min-width: 1040px) {
+  .features__img {
+    width: 200px;
+  }
+}

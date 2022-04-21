@@ -1,0 +1,10 @@
+.popular__container {
+    padding-top: 1rem;
+  }
+
+  @media screen and (min-width: 1040px) {
+    .popular__container {
+      width: 875px;
+      padding-top: 3rem;
+    }
+  }

@@ -1,0 +1,8 @@
+.nav__close {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}

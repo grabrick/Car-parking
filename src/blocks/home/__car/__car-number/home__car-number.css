@@ -1,0 +1,5 @@
+.home__car-number {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: .25rem;
+  }

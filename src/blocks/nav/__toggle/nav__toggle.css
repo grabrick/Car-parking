@@ -1,0 +1,16 @@
+.nav__toggle {
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .nav__toggle:hover {
+    transition: .3s;
+    color: var(--first-color);
+  }
+
+  @media screen and (min-width: 767px) {
+    .nav__toggle,
+    .nav__close {
+      display: none;
+    }
+  }

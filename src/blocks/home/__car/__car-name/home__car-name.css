@@ -1,0 +1,5 @@
+.home__car-name {
+    font-size: .625rem;
+    font-weight: 400;
+    color: var(--text-color-light);
+  }

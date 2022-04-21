@@ -1,0 +1,10 @@
+.home__img {
+    width: 280px;
+    justify-self: center;
+  }
+
+  @media screen and (min-width: 1040px) {
+    .home__img {
+      width: 380px;
+    }
+  }

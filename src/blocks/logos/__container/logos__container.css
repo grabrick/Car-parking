@@ -1,0 +1,25 @@
+.logos__container {
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 320px) {
+  .logos__container {
+    gap: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .logos__container {
+    gap: 4rem 8rem;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .logos__container {
+    grid-template-columns: repeat(6, max-content);
+  }
+}

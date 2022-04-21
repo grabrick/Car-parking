@@ -1,0 +1,10 @@
+.featured__title,
+.featured__subtitle,
+.featured__img {
+  position: relative;
+}
+
+.featured__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: .25rem;
+}

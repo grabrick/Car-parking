@@ -1,0 +1,9 @@
+.featured__container {
+    padding-top: 1rem;
+  }
+
+  @media screen and (min-width: 1040px) {
+    .featured__container {
+      padding-bottom: 2.5rem;
+    }
+  }
