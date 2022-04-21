@@ -1,3 +1,8 @@
 .active-link {
     color: var(--first-color);
+    transition: .5s;
+}
+
+.active-link:hover {
+    opacity: 1;
 }

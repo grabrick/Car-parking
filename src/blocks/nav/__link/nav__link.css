@@ -3,6 +3,7 @@
   color: var(--title-color);
   font-size: var(--h2-font-size);
   font-weight: var(--font-medium);
+  transition: .3s;
 }
 
 .nav__link:hover {
