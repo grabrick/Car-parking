@@ -1,5 +1,4 @@
 /* Commponents */
-@import url('../assets/components/activate-featured/active-featured.css');
 @import url('../assets/components/scroll-bar/scroll-bar.css');
 @import url('../assets/components/scroller/scroller.css');
 @import url('../assets/components/shape/shape.css');
@@ -26,7 +25,6 @@
 /* Nav */
 @import url('../blocks/nav/nav.css');
 @import url('../blocks/nav/__close/nav__close.css');
-@import url('../blocks/nav/__item/nav__item.css');
 @import url('../blocks/nav/__link/nav__link.css');
 @import url('../blocks/nav/__list/nav__list.css');
 @import url('../blocks/nav/__logo/nav__logo.css');
@@ -89,6 +87,7 @@
 @import url('../blocks/featured/__price/featured__price.css');
 @import url('../blocks/featured/__subtitle/featured__subtitle.css');
 @import url('../blocks/featured/__title/featured__title.css');
+@import url('../assets/components/activate-featured/active-featured.css');
 /* offer */
 @import url('../blocks/offer/offer.css');
 @import url('../blocks/offer/__bg/offer__bg.css');
@@ -109,6 +108,6 @@
 @import url('../blocks/footer/__social/footer__social.css');
 @import url('../blocks/footer/__social/__social-link/footer__social-link.css');
 @import url('../blocks/footer/__title/footer__title.css ');
+@import url('../blocks/footer/__content/footer__content.css');
 /* @import url('..');
-@import url('..');
 @import url('..'); */

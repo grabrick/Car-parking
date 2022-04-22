@@ -73,15 +73,13 @@ let mixerFeatured = mixitup('.featured__content', {
 });
 
 /* Link active featured  не работает*/ 
+const linkFeatured = document.querySelectorAll('.featured__item');
 
 function activeFeatured() {
-  LinkFeatured.forEach(LinkFeatured.classList.remove('.active-featured'));
-  this.classList.add('active-featured')
+  linkFeatured.forEach(l=> l.classList.remove('active-featured'));
+  this.classList.add('active-featured');
 }
-LinkFeatured.addEventListener('click', () => {
-
-})
-
+linkFeatured.forEach(l=> l.addEventListener('click', activeFeatured));
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
@@ -124,7 +122,6 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home__title, .popular__container, .features__img, .featured__filters`)
 sr.reveal(`.home__subtitle`, {delay: 500})
-sr.reveal(`.nav`, {delay: 300})
 sr.reveal(`.home__elec`, {delay: 600})
 sr.reveal(`.home__img`, {delay: 800})
 sr.reveal(`.home__car-data`, {delay: 900, interval: 100, origin: 'bottom'})
